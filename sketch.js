@@ -1,6 +1,6 @@
 var bow , arrow,  background;
 var bowImage, arrowImage, green_balloonImage, red_balloonImage, pink_balloonImage ,blue_balloonImage, backgroundImage;
-var score=0;
+var score;
 
 function preload(){
   
@@ -28,6 +28,8 @@ function setup() {
   bow = createSprite(380,220,20,50);
   bow.addImage(bowImage); 
   bow.scale = 1;
+  
+  score=0;
   
 }
 
